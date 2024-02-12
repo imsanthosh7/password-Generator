@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Randam password Generator</title>
+    <link rel="icon" href="icon/lightingicon.png.webp">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <h2 class="heading">Randam password Generator</h2>
+        <div class="password">
+          <input type="text" id="passwords" placeholder="password" />
+          <img src="icon/copyicon.png.webp" alt="" onclick=" copypassword()" />
+        </div>
+        <button onclick="createpassword()" class="btn">Generate</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
